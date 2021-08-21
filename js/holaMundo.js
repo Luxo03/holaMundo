@@ -21,7 +21,7 @@ let comision = '16i';
 
 document.write('<br>Comision: '+ comision);
  
-// modificar el contenido de una variable
+// modificar el contenido de una variable siempre que no sea constante
  
 comision = 'i';
  
