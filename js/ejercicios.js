@@ -24,6 +24,7 @@ document.write(x+y)
  
 //Ej 5 prog 3 lineas num, num y resultado
  
-document.write('<br>El resultado de la suma es: ')
 let n1 = parseInt(prompt ('Ingrese un numero'))
 let n2 = parseInt(prompt ('Ingrese un numero'))
+let n3 = (n1 + n2)
+document.write('<br>El resultado de la suma es: '+ n3)
