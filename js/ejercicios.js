@@ -1,8 +1,8 @@
-//Ej 1 alerta sobre 'un mensaje' ↓
+//Ej 1 - Alerta sobre 'un mensaje' ↓
 
 // alert('un mensaje')
  
-/*Ej 2 Programa Hello World ↓
+/*Ej 2 - Programa Hello World ↓
 si es texto va entre comillas*/
 
 let saludo = 'Hello ';
@@ -10,7 +10,7 @@ let saludo2 = 'World';
 
 document.write(saludo + saludo2);
  
-//Ej 3 programa suma
+//Ej 3 - Programa suma
  
 document.write('<br>Resultado: ');
 
@@ -19,14 +19,14 @@ let y = 5;
  
 document.write(x+y);
  
-/* Ej 4 solicita nombre de usuario
+/* Ej 4 - Solicita nombre de usuario
  
 prompt ('Hola nombreUsuario');
  
 promt es una ventana emergente con un input el cual ingresa como texto
  */
  
-/* Ej 5 prog 3 lineas num, num y resultado
+/* Ej 5 - Prog 3 lineas num, num y resultado
 parseInt sirve para transformar un numero de cadena de texto a un numero entero */
  
 let n1 = parseInt(prompt ('Ingrese el primer numero'));

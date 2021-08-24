@@ -9,6 +9,8 @@ document.write("<br>Numero 2= " + numero2);
     codigo a ejecutar si la respuesta es verdadero o true
 }
  */
+ 
+// Ej 6 - Escribe un programa que pida dos números y escriba en la pantalla cual es el mayor.
 
 if (numero1 > numero2) {
   document.write("<br>El numero 1 es mayor al numero 2");
