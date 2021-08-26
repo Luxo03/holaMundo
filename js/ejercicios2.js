@@ -45,5 +45,103 @@ if (number % 2 == 0 || number % 3 == 0 || number % 5 == 0 || number % 7 == 0) {
 } else {
     document.write('<br>Éste número NO es divisible en 2, 3, 5 o 7')
 }
-
 */
+ 
+/* Ej 11 - Añadir al ejercicio anterior que nos diga por cuál de los cuatro es divisible
+(hay que decir todos por los que es divisible) */
+
+let n = parseInt(prompt("Ingresa un numero aquí"));
+document.write("El numero es: " + n);
+
+ if (n % 2 == 0 && n % 3 == 0 && n % 5 == 0 && n % 7 == 0) {
+  document.write("<br>Éste numero es divisible en 2, 3, 5 y 7");
+} else if (n % 2 == 0 && n % 3 == 0 && n % 5 == 0) {
+  document.write('<br>Éste número es divisible en 2, 3 y 5')
+} else if (n % 2 == 0 && n % 5 == 0 && n & 7 == 0) {
+  document.write('<br>Éste número es divisible en 2, 5 y 7')
+} else if (n % 2 == 0 && n % 3 == 0 && n & 7 == 0) {
+  document.write('<br>Éste número es divisible en 2, 3 y 7')
+} else if (n % 3 == 0 && n % 5 == 0 && n % 7 == 0) {
+  document.write('<br>Éste número es divisible en 3, 5 y 7')
+} else if (n % 2 == 0 && n % 3 == 0) {
+  document.write('<br>Éste número es divisible en 2 y 3')
+} else if (n % 2 == 0 && n % 5 == 0) {
+  document.write('<br>Éste número es divisible en 2 y 5')
+} else if (n % 2 == 0 && n % 7 == 0) {
+  document.write('<br>Éste número es divisible en 2 y 7')
+} else if (n % 3 == 0 && n % 5 == 0) {
+  document.write('<br>Éste número es divisible en 3 y 5')
+} else if (n % 3 == 0 && n % 7 == 0) {
+  document.write('<br>Éste número es divisible en 3 y 7')
+} else if (n % 5 == 0 && n % 7 == 0) {
+  document.write('<br>Éste número es divisible en 5 y 7')
+} else if (n % 2 == 0) {
+  document.write('<br>Éste número es divisible en 2')
+} else if (n % 3 == 0) {
+  document.write('<br>Éste número es divisible en 3')
+} else if (n % 5 == 0) {
+  document.write('<br>Éste número es divisible en 5')
+} else if (n % 7 == 0) {
+  document.write('<br>Éste número es divisible en 7')
+} else {
+  document.write('<br>Éste número NO es divisible en 2, 3, 5 o 7')
+}
+
+
+
+/* switch(number){
+  case (number % 2 == 0):
+  document.write('<br>Éste número es divisible en 2');
+  break;
+  case (number % 2 == 0 && number % 3 == 0):
+  document.write('<br>Éste número es divisible en 2 y 3');
+  break;
+  case (number % 2 == 0):
+  case (number % 3 == 0):
+  case (number % 5 == 0):
+  document.write('<br>Éste número es divisible en 2, 3 y 5');
+  break;
+  case (number % 2 == 0):
+  case (number % 3 == 0):
+  case (number % 5 == 0):
+  case (number % 7 == 0):
+  document.write('<br>Éste número es divisible en 2, 3, 5 y 7');
+  break;
+  case (number % 3 == 0):
+  document.write('<br>Éste número es divisible en 3');
+  break;
+  case (number % 3 == 0):
+  case (number % 5 == 0):
+  document.write('<br>Éste número es divisible en 3 y 5');
+  break;
+  case (number % 3 == 0):
+  case (number % 5 == 0):
+  case (number % 7 == 0):
+  document.write('<br>Éste número es divisible en 3, 5 y 7');
+  break;
+  case (number % 5 == 0):
+  document.write('<br>Éste número es divisible en 5');
+  break;
+  case (number % 5 == 0):
+  case (number % 7 == 0):
+  document.write('<br>Éste número es divisible en 5 y 7');
+  break;
+  case (number % 7 == 0):
+  document.write('<br>Éste número es divisible en 7');
+  break;
+  case (number % 2 == 0):
+  case (number % 7 == 0):
+  document.write('<br>Éste número es divisible en 2 y 7');
+  break;
+  case (number % 2 == 0):
+  case (number % 5 == 0):
+  document.write('<br>Éste número es divisible en 2 y 5');
+  break;
+  case (number % 2 == 0):
+  case (number % 3 == 0):
+  case (number % 7 == 0):
+  document.write('<br>Éste número es divisible en 2, 3 y 7');
+  break;
+  default:
+    alert('El numero ingresado NO es divisible en 2 y 3')
+} */
